@@ -6,7 +6,7 @@ _Shift-left testing is an approach to software testing and system testing in whi
 
 ![image](https://github.com/Developers-CST/Developer-story/assets/141417594/c19180b1-bccd-4d18-b6c8-ec0a5f610e99)
 
-Our developement philosoply comes from this root.
+Our developement philosophy comes from this root.
 
 ## Choosing the IDE
 
