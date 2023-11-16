@@ -10,7 +10,48 @@ Our developement philosophy comes from this root.
 
 ## Choosing the IDE
 
-Visual studio code
+
+### Visual Studio Code: A Great Choice for Coding
+
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/bc29a365-f5b1-4bd7-9614-1f93337deb16)
+
+
+Visual Studio Code (VS Code) is an excellent platform for our coding adventures because of its lightweight nature and adaptability. It's akin to a sophisticated text editor that effortlessly handles various programming languages without consuming excessive computer resources. Its versatility shines through a vast collection of community-created extensions that act as add-ons, offering tailored tools and language support for our specific needs. Moreover, it seamlessly integrates with version control systems like Git, a vital aspect for collaborative projects.
+
+One of the remarkable aspects? VS Code significantly eases coding for students. Its IntelliSense feature provides intelligent code suggestions, aiding in faster coding and navigation through complex code structures. Further support is available from a vibrant community, invaluable for troubleshooting or queries. Additionally, VS Code can integrate with other tools we might utilize for continuous integration (CI) and early-stage error detection ('shift-left' principle). Should we require extra functionalities like security checks, code testing, or maintaining code cleanliness, there are extensions readily available. Overall, it's a flexible, user-friendly, and powerful tool perfectly suited to our learning needs.
+
+### Extensions for 'Shift-Left' Principles:
+
+1. **Static Code Analysis Extensions:**
+   - *ESLint for JavaScript/TypeScript projects:*
+     - ESLint integrates into VS Code, aiding in early issue detection during development.
+   - *Pylint for Python projects:*
+     - Microsoft's official Python extension includes linting support via Pylint.
+
+2. **Security Scanning:**
+   - *Snyk for security scanning:*
+     - Integrates with Snyk to identify and rectify security vulnerabilities in dependencies.
+
+3. **Unit Testing:**
+   - *Test Explorer UI:*
+     - Provides a unified test explorer UI for various testing frameworks, enabling running unit tests within VS Code.
+
+4. **Linting and Formatting:**
+   - *Prettier for code formatting:*
+     - A widely-used code formatter maintaining consistent code style.
+
+5. **Continuous Integration (CI):**
+   - *Azure Pipelines, GitHub Actions, or GitLab CI:*
+     - Depending on version control and hosting platforms, CI pipelines can automate tasks like code analysis, testing, and deployment.
+
+### Other Commonly Explored IDEs:
+
+- **Eclipse:** Popular for Java development.
+- **IntelliJ IDEA:** Known for strong support in Java and other JVM-based languages.
+- **Atom:** Similar to VS Code, being lightweight and extensible.
+- **PyCharm:** Specialized for Python development.
+
+By Jaice Joseph and Hemal
 
 ## Security tools
 
@@ -77,7 +118,13 @@ By Lavanya
 
 ## Actions Pushback
 
-Github build fail
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/1ef13767-85e3-45fc-ba10-48aa0451f50c)
+
+Using pull requests (PRs) in GitHub helps developers share their code changes with the team and get feedback before adding those changes to the main code. It's like asking for advice on your work before making it official. This process allows others to check your code, suggest improvements, and make sure it works well with the rest of the project.
+
+If your pull request fails, meaning the automated tests or checks find issues with your code, here's what you do: First, understand why it failed by checking the details of the problem. Fix the issues in your code and then run the tests again. Keep doing this until the tests pass and your changes work correctly. If you can't figure out how to fix the issues, create an issue in the repository to discuss the problem with your team. Additionally, notify the developer through email about the failure, so they're aware and can assist if needed. Once everything is good, your changes can be added to the main code for everyone to use after getting approval from the team.
+
+By Ashraf
 
 ## Naming Conventions & Code Practices
 
