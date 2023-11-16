@@ -49,6 +49,8 @@ Github build fail
 
 ## Naming Conventions & Code Practices
 
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/2ba09dc1-6ace-487e-8d17-a7851f8fd3c0)
+
 Common File Structures: Following established nomenclature and file structure conventions fosters a common understanding among team members. This consistency promotes collaboration and effective communication by making it easier for team members to find and understand code and project structures.
 
 During web development, the default port number for displaying websites is 80 for HTTP and 443 for HTTPS. Port 80 was chosen for HTTP because it's the well-known port for unencrypted web traffic, while port 443 is the standard for encrypted HTTPS connections.Ports like 3000, 5000, and 8000 are commonly used. Port 5500 is also sometimes used, especially by tools like Live Server. However, the specific choice often comes down to personal preference, team conventions, and the availability of ports in your environment.
@@ -100,7 +102,7 @@ Explanation: Holds stylesheets, often in CSS or preprocessor formats (e.g., Sass
 
 By Likith and Thanmay
 
-## Summary
+## Our proposed framework
 
 ### Collaboration Best Practices
 
@@ -111,8 +113,10 @@ By Likith and Thanmay
  
 ### Tools
 
-- Use standard frameworks/tools with stated purposes in the Readme.md. Like snyk for security and jest for testing.
-- For JavaScript, use Eslint; for Python, use Pylint.
+- Use standard frameworks/tools with stated purposes in the Readme.md.
+- Use a security tool like snyk.
+- Use a unit testing tool like jest or pytest.
+- Use a lint tool like eslint or pylint.
 
 ### Exception Handling
 
