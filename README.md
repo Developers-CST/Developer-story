@@ -1,5 +1,5 @@
 # Developer-story
- This repository narrates the journey of setting up effective developer collaboration, sharing real-life experiences and lessons while implementing communication, tools, and project management strategies which was compiled and edited by R Keertish Kumar.
+ This repository narrates the journey of setting up effective developer collaboration while implementing communication, tools, and project management strategies which was compiled and edited by R Keertish Kumar.
 
 ## Shift left testing
 _Shift-left testing is an approach to software testing and system testing in which testing is performed earlier in the lifecycle (i.e. moved left on the project timeline). It is the first half of the maxim "test early and often"._
@@ -26,7 +26,27 @@ By Manoj Kumar R and Pruthvi Reddy
 
 ## Unit testing tools
 
-Jest
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/f4e34cff-0000-494e-81fd-9b2a32c67e93)
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/6f1865c8-5815-4c9a-bd94-4ebe86b09044)
+
+
+
+We used Jest as our tool for unit testing. Jest is a popular JavaScript testing framework maintained by Facebook. It is designed to be simple, fast, and developer-friendly. Jest is often used for testing applications, libraries, and scripts written in JavaScript.
+
+Coming to the python testing we have used pytest as it has a very simple syntax for writing tests, fixtures for test setup and for debugging. It is also highly extensible through plugins for code coverage, fixtures and more.Finally it provides us details and informative reports after test runs, making it easy to identify which tests passed or failed and why.
+
+We also explored Quixote that is a CSS testing framework developed by the team at the Financial Times. It is designed to facilitate automated testing of web applications by allowing developers to write tests that verify the visual appearance of their CSS styles. But we did not prefer it as it might lead to bloated code and much customizations are not possible with it and we should be very clear on what part of the famework must be used.
+
+We have also included unit testing at the initial level for the following reasons:-
+- Early Detection of Bugs
+- Immediate Feedback
+
+Using of Jest helped us in the shift left process by the following ways:-
+- While using jest for java script it helped in the early detection of bugs by writing unit tests. It focusses on individual components, providing us a granular level of testing to identify problems.
+- As Jest is often integrated with the CI/CD pipeline it helped us in automated testing 
+- Jest also provides immediate feedback when a test fails.
+
+By Pooja Manyam and Krutarth
 
 ## Lint tools
 
