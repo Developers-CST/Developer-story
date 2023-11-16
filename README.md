@@ -108,7 +108,7 @@ By Likith and Thanmay
 
 - Create a WhatsApp group for communication.
 - Implement 2 min, 5 min, and 10 min pitches for development work presentations.
-- 
+ 
 ### Tools
 
 - Use standard frameworks/tools with stated purposes in the Readme.md. Like snyk for security and jest for testing.
