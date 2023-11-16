@@ -50,7 +50,19 @@ By Pooja Manyam and Krutarth
 
 ## Lint tools
 
-Pylint and Eslint
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/e58bf29f-dd8f-4d5f-9cfc-7329a731bb8d)
+![image](https://github.com/Developers-CST/Developer-story/assets/141417594/3cd31578-68f4-4e7a-b6f2-0f962b48c03a)
+
+
+When I stumbled upon ESLint for JavaScript and pylint for Python, I found tools that completely transformed how I approached coding. They introduced me to something called "linting." Linting, powered by these tools, is like having a super attentive assistant that carefully goes through your code, examining every line for errors, style inconsistencies, and potential issues.
+
+Imagine you're writing an essay, and there's a grammar checker ensuring your sentences are correct and making sure your writing style is consistent. Linting does a similar job but for code. It's not just about catching simple mistakes like forgetting a punctuation mark or using a variable that doesn't exist. It also checks if your code follows specific rules and styles that make it easier to read and understand.
+
+By using ESLint and pylint right from the start, my code became cleaner and more organized. It was like having a code coach that guided me on the best practices of writing code. Plus, it helped me catch mistakes early in the game, similar to having a friend point out mistakes in your homework before submitting it, giving you a chance to fix them before they become big problems.
+
+The cool thing about these tools is that they follow the "shift-left" principle. It's like being proactive—dealing with problems right at the beginning. Using ESLint and pylint meant I could detect and fix issues early, creating a solid code foundation. It's like building a sturdy house brick by brick, ensuring it can withstand any challenges that might come its way. Ultimately, linting became my go-to tool for not just finding errors but also for crafting top-notch, easy-to-maintain, and efficient code right from the get-go.
+
+By Hemanth Sudarshan and Ankit Singh
 
 ## Exception handling
 
