@@ -128,56 +128,71 @@ By Ashraf
 
 ## Naming Conventions & Code Practices
 
-![image](https://github.com/Developers-CST/Developer-story/assets/141417594/2ba09dc1-6ace-487e-8d17-a7851f8fd3c0)
+![Common File Structures](https://github.com/Developers-CST/Developer-story/assets/141417594/2ba09dc1-6ace-487e-8d17-a7851f8fd3c0)
 
-Common File Structures: Following established nomenclature and file structure conventions fosters a common understanding among team members. This consistency promotes collaboration and effective communication by making it easier for team members to find and understand code and project structures.
+### Development port number
 
 During web development, the default port number for displaying websites is 80 for HTTP and 443 for HTTPS. Port 80 was chosen for HTTP because it's the well-known port for unencrypted web traffic, while port 443 is the standard for encrypted HTTPS connections.Ports like 3000, 5000, and 8000 are commonly used. Port 5500 is also sometimes used, especially by tools like Live Server. However, the specific choice often comes down to personal preference, team conventions, and the availability of ports in your environment.
 
-Source Code:
+### Common File Structures
 
-Folder Name: src (source)
-Explanation: This folder holds the main source code of the project. It's where developers write the actual code for the application.
-Public Assets:
+Following established nomenclature and file structure conventions fosters a common understanding among team members. This consistency promotes collaboration and effective communication by making it easier for team members to find and understand code and project structures.
 
-Folder Name: public
-Explanation: This directory contains static assets that are publicly accessible, such as images, fonts, and HTML files visible to users.
-Distribution Output:
+#### Source Code
 
-Folder Name: dist (distribution)
-Explanation: The dist folder stores the output of the build process, including optimized and bundled code ready for deployment.
-Libraries or External Modules:
+- **Folder Name:** `src` (source)
+- **Explanation:** This folder holds the main source code of the project. It's where developers write the actual code for the application.
 
-Folder Name: lib (library)
-Explanation: External libraries or modules that are not installed via a package manager can be placed in this directory.
-Tests:
+#### Public Assets
 
-Folder Name: test or tests
-Explanation: This directory holds test files and suites, ensuring the correctness of the code through automated testing.
-Configuration:
+- **Folder Name:** `public`
+- **Explanation:** This directory contains static assets that are publicly accessible, such as images, fonts, and HTML files visible to users.
 
-Folder Name: config
-Explanation: Configuration files for various tools or settings used in the project are typically stored here.
-Node Modules:
+#### Distribution Output
 
-Folder Name: node_modules
-Explanation: This directory contains dependencies installed via a package manager, such as npm or Yarn.
-Documentation:
+- **Folder Name:** `dist` (distribution)
+- **Explanation:** The `dist` folder stores the output of the build process, including optimized and bundled code ready for deployment.
 
-Folder Name: docs
-Explanation: Documentation files for the project, providing information about the codebase and how to use the software.
-Assets:
+#### Libraries or External Modules
 
-Folder Name: assets
-Explanation: Similar to the public directory, this folder is used for storing various project assets like images, fonts, and other media files.
-Executable Scripts or Binaries:
+- **Folder Name:** `lib` (library)
+- **Explanation:** External libraries or modules that are not installed via a package manager can be placed in this directory.
 
-Folder Name: bin
-Explanation: This directory contains executable scripts or binaries related to the project.
-Stylesheets:
+#### Tests
 
-Folder Name: styles or css
-Explanation: Holds stylesheets, often in CSS or preprocessor formats (e.g., Sass or Less).
+- **Folder Name:** `test` or `tests`
+- **Explanation:** This directory holds test files and suites, ensuring the correctness of the code through automated testing.
+
+#### Configuration
+
+- **Folder Name:** `config`
+- **Explanation:** Configuration files for various tools or settings used in the project are typically stored here.
+
+#### Node Modules
+
+- **Folder Name:** `node_modules`
+- **Explanation:** This directory contains dependencies installed via a package manager, such as npm or Yarn.
+
+#### Documentation
+
+- **Folder Name:** `docs`
+- **Explanation:** Documentation files for the project, providing information about the codebase and how to use the software.
+
+#### Assets
+
+- **Folder Name:** `assets`
+- **Explanation:** Similar to the public directory, this folder is used for storing various project assets like images, fonts, and other media files.
+
+#### Executable Scripts or Binaries
+
+- **Folder Name:** `bin`
+- **Explanation:** This directory contains executable scripts or binaries related to the project.
+
+#### Stylesheets
+
+- **Folder Name:** `styles` or `css`
+- **Explanation:** Holds stylesheets, often in CSS or preprocessor formats (e.g., Sass or Less).
+
 
 By Likith and Thanmay
 
