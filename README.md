@@ -181,6 +181,14 @@ Explanation: Holds stylesheets, often in CSS or preprocessor formats (e.g., Sass
 
 By Likith and Thanmay
 
+### Developer experiences
+
+So, I had been working on a new feature implementation in my project which used new modules. It worked well on my dev machine after merging the branches with the main, so I decided to create a pull request. Since we already had a Continuous Integration pipeline set up, I realized the pull request I set up failed the checks. When I read through the logs, I realized I hadn't updated the `requirements.txt` file which led to failure in checks at the build stage of the pipeline itself. If I hadn't had a pipeline and deployed it, it would have caused a major issue. So, having a good practice of making a pull request with a continuous integration pipeline made sure we deployed a site that worked on all machines.
+
+When using the Snyk extension, I learned about open-source dependency vulnerabilities check where the `requirements` file with the modules is scanned with a database to check for vulnerabilities that could be exploited. Before using this tool, I used to have a basic check of the libraries that I used by looking through the [CISA Vulnerabilities summary](https://www.cisa.gov/news-events/bulletins/sb23-283) for security issues. Now, due to the extension, I can make sure a scan would keep the application secure.
+
+By R Keertish Kumar
+
 ## Our proposed framework
 
 ### Collaboration Best Practices
